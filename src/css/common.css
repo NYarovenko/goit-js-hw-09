@@ -17,6 +17,7 @@ img {
   max-width: 100%;
 }
 
+/* color_switcher */
 .container_btn {
   margin-top: 200px;
   display: flex;
@@ -27,4 +28,34 @@ img {
   margin: 10px;
   padding: 5px;
   font-size: 42px;
+}
+
+/* timer */
+.container_timer {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+.container_timer input,
+.container_timer button {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+span.value {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
 }
